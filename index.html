@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body {
+            background-color: rgb(230, 226, 226);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card-container {
+            box-sizing: border-box;
+            width: 26vw;
+            padding: 16px;
+            border: 2px solid gray;
+            border-radius: 13px;
+            color: rgb(72, 73, 73);
+            background-color: rgb(238, 232, 232);
+            box-shadow: 0 0 13px rgb(106, 106, 106);
+        }
+
+        .image-container {
+            height: 17vw;
+            width: 100%;
+            border-radius: 21px;
+            box-shadow: 0 0 0px;
+        }
+
+        .capsule {
+            background-color: rgb(240, 242, 244);
+            border-radius: 90px;
+            color: rgb(110, 110, 110);
+            padding: 4px 10px;
+            margin-left: 10px;
+            display: inline-block;
+        }
+
+        .card-container p {
+            margin: 10px 20px;
+        }
+
+        .read-btn {
+            display: inline-block;
+            background-color: #e3ecfc;
+            color: #2f72da;
+            border-radius: 999px;
+            font-size: 14px;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 10px 20px;
+            transition: 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .read-btn:hover {
+            background-color: #d0e0fc;
+            color: #1a5ac3;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <img src="https://bpac.in/wp-content/uploads/2021/08/BlogsArtboard-1-copy-9.jpg" alt="The Nature" class="image-container">
+        
+        <div>
+            <span class="capsule">Nature</span>
+            <span class="capsule">Civilization</span>
+            <h2>Human Civilization</h2>
+            <p>
+                Ever since the start of human civilization, nature has been a partner and supporter of our growth.
+                Nature has no doubt been benevolent and has been making our life sustainable on the planet. However,
+                as time goes by we are forgetting how much we humans are depending on it.
+                Human civilization has grown rapidly through science, technology, and development—but often at the cost
+                of nature. Forests have been cut, rivers polluted, and animals displaced. To live in harmony with the Earth...
+            </p>
+
+            <div class="btn-container">
+                <a href="https://bpac.in/nature-conservation-how-can-you-make-a-difference/" class="read-btn">Read More</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
